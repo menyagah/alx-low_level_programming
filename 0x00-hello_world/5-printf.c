@@ -1,10 +1,12 @@
 #include <stdio.h>
 
-int main() {
-  printf("Roses are red,\n");
-  printf("Violets are blue,\n");
-  printf("I'm terrible at poetry,\n");
-  printf("But I can make art with C.\n");
-
-  return 0;
+/**
+ * main - Entry point of the program
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+  printf("with proper grammar, but the outcome is a piece of art,\n");
+  return (0);
 }
