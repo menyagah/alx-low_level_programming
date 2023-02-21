@@ -6,6 +6,6 @@
  *
  * Return: 0
  */
-int myfunction();
+int myfunction(void);
 
 #endif
