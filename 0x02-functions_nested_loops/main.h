@@ -6,6 +6,6 @@
  *
  * Return: 0
  */
-int putchar();
+int putchar(void);
 
 #endif
