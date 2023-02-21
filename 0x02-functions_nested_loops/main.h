@@ -1,11 +1,11 @@
-#include <stdio.h>
+#ifndef MAIN_H
+#define MAIN_H
 
 /**
- * main- Entry point of the program
+ * putchar- A function that takes no arguments and returns an int value
  *
- * Return: Always 0 (Success)
+ * Return: An integer value.
  */
-int main(){
-putchar();
-return 0;
-}
+int putchar(void);
+
+#endif
