@@ -2,10 +2,10 @@
 #define MAIN_H
 
 /**
- * putchar- A function that takes no arguments and returns an int value
+ * putchar- A function prototype for greet function
  *
- * Return: An integer value.
+ * Return: 0
  */
-int putchar(void);
+int putchar();
 
 #endif
