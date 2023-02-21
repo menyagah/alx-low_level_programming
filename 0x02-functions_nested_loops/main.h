@@ -6,6 +6,6 @@
  * Return: Always 0 (Success)
  */
 int main(){
-_putchar();
+putchar();
 return 0;
 }
