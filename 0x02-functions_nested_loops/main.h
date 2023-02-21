@@ -2,10 +2,10 @@
 #define MAIN_H
 
 /**
- * putchar- A function prototype for greet function
+ * myfunction- A function prototype for greet function
  *
  * Return: 0
  */
-int putchar(void);
+int myfunction(void);
 
 #endif
