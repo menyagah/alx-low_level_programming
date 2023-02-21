@@ -1,4 +1,4 @@
-#include <main.h>
-void _putchar(){
+#include "main.h"
+int  _putchar(){
 printf("_putchar\n");
 }
