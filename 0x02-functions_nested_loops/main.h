@@ -5,7 +5,7 @@
  *
  * Return: Always 0 (Success)
  */
-void _putchar(){
-printf("_putchar\n");
-return(0);
+int main(){
+_putchar();
+return 0;
 }
