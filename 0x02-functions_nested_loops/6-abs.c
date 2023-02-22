@@ -2,9 +2,9 @@
 
 /**
  * _abs - function that returns the absolute value of an integer
- * @num : integer to check
+ * @num: integer to check
  *
- * Return : The absolute value of the input integer
+ * Return: -@num if @num is negative, @num if num is positive
  */
 int _abs(int num)
 {
