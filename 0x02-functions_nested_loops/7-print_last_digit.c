@@ -6,8 +6,9 @@
  *
  * Return: returns last digit
  */
+
 int print_last_digit(int num)
 {
-_putchar(num)
+_putchar(num);
 return (0);
 }
