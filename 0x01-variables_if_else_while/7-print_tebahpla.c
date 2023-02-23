@@ -12,7 +12,7 @@ char z = 'z';
 char i;
 for (i = a; i <= z; i--)
 {
-putchar(i);
+putchar(i + '0');
 }
 putchar('\n');
 return (0);
