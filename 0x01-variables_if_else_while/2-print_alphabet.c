@@ -11,7 +11,8 @@ char a = 'a';
 char z = 'z';
 char i;
 for (i = a; i <= z; i++){
-_putchar(i\n);
+putchar(i);
 }
+putchar('\n');
 return (0);
 }
