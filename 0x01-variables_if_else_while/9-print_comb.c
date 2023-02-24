@@ -25,6 +25,7 @@ if (i != 9 || j != 8)
 putchar(',');
 }
 }
+putchar(i + '0');
 }
 
 return 0;
