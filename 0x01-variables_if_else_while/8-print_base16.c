@@ -6,7 +6,7 @@
  * Return: returns 0;
  */
 
-int main() 
+int main(void)
 {
 int i;
 for (i = 0; i<16; i++)
@@ -19,7 +19,7 @@ else
 {
 putchar(i - 10 + 'a');
 }
-putchar('\n');
 }
+putchar('\n');
 return (0);
 }
