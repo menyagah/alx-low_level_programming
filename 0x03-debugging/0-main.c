@@ -14,7 +14,7 @@ positive_or_negative(i);
 
 if (i == 0)
 {
-printf("%d is zero\n", i);
+printf("0 is zero\n");
 }
 return (0);
 }
