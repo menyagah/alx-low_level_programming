@@ -18,9 +18,8 @@ void rev_string(char *s)
 	s--;
 	while (len > 0)
 	{
-		printf("%c", *s);
+		putchar(*s);
 		s--;
 		len--;
 	}
-	return (*s);
 }
