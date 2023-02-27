@@ -18,7 +18,6 @@ void rev_string(char *s)
         s--;
         while (len > 0)
         {
-		printf("%c\n", *s);
                 s--;
 		len--;
         }
