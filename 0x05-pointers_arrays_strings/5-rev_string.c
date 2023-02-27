@@ -22,5 +22,4 @@ void rev_string(char *s)
                 s--;
                 len--;
         }
-        printf("\n");
 } 
