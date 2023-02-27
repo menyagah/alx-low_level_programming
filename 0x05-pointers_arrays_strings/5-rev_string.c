@@ -13,7 +13,11 @@ void rev_string(char *s)
 	size_t len = strlen(s) - 1;
 	size_t i;
 	size_t k = len;
-
+        
+	if (i == 0)
+	{
+		printf("");
+	}
 	for (i = 0; i < len; i++)
 	{
 		temp = s[k];
