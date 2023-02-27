@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - start of the function
+ * reset_to_98 - function call
  *@n: the parameter to be passed
  *
  */
