@@ -8,19 +8,20 @@
 
 void rev_string(char *s)
 {
-	int len = 0;
+	char temp;
+	size_t len = strlen(s) - 1;
+	size_t i;
+	size_t k = len;
 
-	while (*s != '\0')
+	for (i = 0; i < len; i++)
 	{
-		len++;
-		s++;
-	}
-	s--;
-	while (len > 0)
-	{
-		printf("%c", *s);
-		s--;
-		len--;
-	}
-	printf("\n");
+		temp = s[k];
+		s[k] = s[i];
+		s[i] = temp;
+		k--;
+		if (k == (len /2))
+		{
+			break;
+		}
+	}	
 }
