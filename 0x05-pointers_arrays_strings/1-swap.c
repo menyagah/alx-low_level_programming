@@ -2,8 +2,8 @@
 
 /**
  * swap_int - a function that swaps two integer values
- * @a - integer value passed in
- * @b - second integer value passed in to be swapped with a
+ * @a: integer value passed in
+ * @b: second integer value passed in to be swapped with a
  *
  */
 
