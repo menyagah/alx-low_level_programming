@@ -9,7 +9,7 @@
 
 void reset_to_98(int *n)
 {
-	n = 98;
+        int n = 98;
 	printf("value of 'n': %d\n", n);
 	return (0);
 }
