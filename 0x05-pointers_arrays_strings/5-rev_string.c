@@ -16,7 +16,7 @@ void rev_string(char *s)
         
 	if (len == 0)
 	{
-		strdup("");
+		s[k] = " ";
 	}
 	for (i = 0; i < len; i++)
 	{
