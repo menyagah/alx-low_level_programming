@@ -16,7 +16,7 @@ void rev_string(char *s)
         
 	if (len == 0)
 	{
-		printf(*s);
+		return "";
 	}
 	for (i = 0; i < len; i++)
 	{
