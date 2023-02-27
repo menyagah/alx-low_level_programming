@@ -10,10 +10,17 @@ void rev_string(char *s)
 {
 	int len = 0;
 
+	while (*s != '\0')
+	{
+		len++;
+		s++;
+	}
+	s--;
 	while (len > 0)
 	{
-		putchar(*s);
+		printf("%c", *s);
 		s--;
 		len--;
 	}
+	printf("\n");
 }
