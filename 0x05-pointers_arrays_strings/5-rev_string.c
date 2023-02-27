@@ -14,7 +14,7 @@ void rev_string(char *s)
 	size_t i;
 	size_t k = len;
         
-	if (len < 0)
+	if (len == 0)
 	{
 		printf("%c", *s);
 	}
