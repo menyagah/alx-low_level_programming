@@ -14,13 +14,12 @@ void rev_string(char *s)
 	size_t i;
 	size_t k = len;
         
-	if (len == 0)
-	{
-		s[k] = ' ';
-		break;
-	}
 	for (i = 0; i < len; i++)
 	{
+		if (len == 0)
+		{
+			s[k] = ' ';
+		}
 		temp = s[k];
 		s[k] = s[i];
 		s[i] = temp;
