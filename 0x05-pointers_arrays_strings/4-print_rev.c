@@ -2,13 +2,14 @@
 
 /**
  * print_rev - function to print the string passed in in reverse
- * @s - the string argument
+ * @s: the string argument
  *
  */
 
 void print_rev(char *s)
 {
 	int len = 0;
+
 	while (*s != '\0')
 	{
 		len++;
