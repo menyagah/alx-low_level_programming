@@ -3,7 +3,7 @@
 
 /**
  * puts2 - prints the even value
- * @str - the parameter being passed in as a string
+ * @str: the parameter being passed in as a string
  *
  */
 
