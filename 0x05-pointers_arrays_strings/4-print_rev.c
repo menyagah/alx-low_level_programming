@@ -21,5 +21,5 @@ void print_rev(char *s)
 		s--;
 		len--;
 	}
-	printf9"\n");
+	printf("\n");
 }
