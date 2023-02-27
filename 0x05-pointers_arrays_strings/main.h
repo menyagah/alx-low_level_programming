@@ -7,5 +7,5 @@
 */
 
 void reset_to_98(int *n);
-void swap-int(int *a, int *b);
+void swap_int(int *a, int *b);
 #endif /* MAIN_H */
