@@ -16,7 +16,7 @@ void rev_string(char *s)
         
 	if (len == 0)
 	{
-		return "";
+		return strdup("");
 	}
 	for (i = 0; i < len; i++)
 	{
