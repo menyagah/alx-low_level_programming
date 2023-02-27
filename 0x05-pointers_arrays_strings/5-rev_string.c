@@ -20,6 +20,5 @@ void rev_string(char *s)
         {
                 printf("%c", *s);
                 s--;
-                len--;
         }
 } 
