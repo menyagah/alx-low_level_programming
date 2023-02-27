@@ -7,19 +7,19 @@
  *
  */
 
-void puts_half(char *str) 
+void puts_half(char *str)
 {
 	int length = strlen(str);
 	int half = length / 2;
 	int i;
 
-	if(length % 2 == 1)
+	if (length % 2 != 0)
 	{
-		half = (length - 1) / 2;
+		length--;
 	}
 	for (i = half; i < length; i++)
 	{
-		putchar(str[i]);
+		printf("%c", str[i]);
 	}
-	putchar('\n');
+	printf("\n");
 }
