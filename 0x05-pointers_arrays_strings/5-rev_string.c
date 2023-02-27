@@ -15,7 +15,7 @@ void rev_string(char *s)
 		len++;
 		s++;
 	}
-	s--
+	s--;
 	while (len > 0)
 	{
 		printf("%c", *s);
