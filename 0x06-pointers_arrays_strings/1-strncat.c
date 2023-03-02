@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 
 /**
  * *_strncat - start of the function
@@ -20,7 +21,7 @@ char *_strncat(char *dest, char *src, int n)
 
 	int i = 0;
 
-	while(*src != '\0' && i < n)
+	while (*src != '\0' && i < n)
 	{
 		*dest++ = *src++;
 		i++;
