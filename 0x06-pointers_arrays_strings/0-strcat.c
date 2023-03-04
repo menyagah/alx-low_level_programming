@@ -9,20 +9,18 @@
  * Return: returns concatnated string
  */
 
-char* _strcat(char* dest, char* src)
+char* _strcat(char* dest, const char* src)
 {
-	char *start = dest;
+	char* p = dest;
 
-	while ( *dest != '\0' )
+	while (*p != '\0') 
 	{
-		dest++;
+		p++;
 	}
-
-	while ( *src != '\0 ')
+	while (*src != '\0')
 	{
-		*dest++ = *src++;
+		*p++ = *src++;
 	}
-
-	*dest = '\0';
-	return (start);
+	*p = '\0';
+	return dest;
 }
