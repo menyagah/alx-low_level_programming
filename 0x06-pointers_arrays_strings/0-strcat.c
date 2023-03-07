@@ -9,18 +9,15 @@
  * Return: returns concatnated string
  */
 
-char *_strcat(char *dest, const char *src)
+char *_strcat(char *dest, char *src)
 {
-	char *p = dest;
+	int len1, len2;
+	len1 = strlen(dest);
+	len2 = strlen(src);
 
-	while (*p != '\0') 
+	for ( int i = 0; i <= len2; i++)
 	{
-		p++;
+		dest[len1 + 1] = src[i];
 	}
-	while (*src != '\0')
-	{
-		*p++ = *src++;
-	}
-	*p = '\0';
-	return dest;
+	return "\n";
 }
