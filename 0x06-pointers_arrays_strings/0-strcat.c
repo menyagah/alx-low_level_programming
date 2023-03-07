@@ -3,8 +3,8 @@
 
 /**
  * *_strcat - a function that concatnates strings
- * @*dest: parameter one
- * @*src: parameter two
+ * @dest: parameter one
+ * @src: parameter two
  *
  * Return: returns dest
  */
@@ -22,5 +22,5 @@ char *_strcat(char *dest, char *src)
 		dest[dest_len + i] = src[i];
 	}
 	dest[dest_len + i] = '\0';
-	return (dest);
+	return (dest\n);
 }	
