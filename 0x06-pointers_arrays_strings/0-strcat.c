@@ -1,5 +1,4 @@
 #include "main.h"
-#include <string.h>
 
 /**
  * _strcat - a function that concatnates strings
@@ -25,5 +24,6 @@ char *_strcat(char *dest, char *src)
 	}
 
 	*end_of_dest = '\0';
+
 	return (dest);
 }
