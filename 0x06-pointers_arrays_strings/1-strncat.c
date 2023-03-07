@@ -6,7 +6,7 @@
  * *_strncat - start of the function
  * @dest: parameter one
  * @src: parameter two
- * @n parameter three
+ * @n: parameter three
  *
  * Return: returns start
  */
