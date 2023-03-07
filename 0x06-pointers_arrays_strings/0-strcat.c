@@ -20,6 +20,7 @@ char *_strcat(char *dest, char *src)
 	while (*src != '\0')
 	{
 		*end_of_dest = *src;
+
 		end_of_dest++;
 		src++;
 	}
