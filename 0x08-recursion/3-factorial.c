@@ -6,6 +6,7 @@
  * factorial - function that gives the factorial of a number
  * @n: parameter one
  *
+ * Return: returns one if int is zero, -1 if int is less than zero and calculates the factorial otherwise
  */
 
 int factorial(int n)
