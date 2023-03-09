@@ -1,9 +1,10 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  *_puts_recursion - start of the program
  *@s: parameter one
  *
+ * Return: returns null
  */
 
 void _puts_recursion(char *s)
@@ -13,6 +14,6 @@ void _puts_recursion(char *s)
 		putchar('\n');
 		return;
 	}
-	printf(*s);
+	putchar(*s);
 	_puts_recursion(s+1);
 }
