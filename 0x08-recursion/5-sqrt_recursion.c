@@ -14,7 +14,6 @@
  * Return: returns the natural square root
  */
 
-int _sqrt_helper(int n, int i);
 
 int _sqrt_recursion(int n)
 {
