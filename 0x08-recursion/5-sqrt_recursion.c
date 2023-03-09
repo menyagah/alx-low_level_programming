@@ -12,17 +12,17 @@ int _sqrt_helper(int n, int i);
 
 int _sqrt_recursion(int n) {
     if (n < 0) {
-        return -1; // Negative number doesn't have a natural square root
+        return -1;
     }
-    return _sqrt_helper(n, 0); // Start with i = 0
+    return _sqrt_helper(n, 0);
 }
 
 int _sqrt_helper(int n, int i) {
     if (i * i == n) {
-        return i; // Found the natural square root
+        return i;
     }
     if (i * i > n) {
-        return -1; // Not a perfect square
+        return -1;
     }
-    return _sqrt_helper(n, i + 1); // Continue with i + 1
+    return _sqrt_helper(n, i + 1);
 }
