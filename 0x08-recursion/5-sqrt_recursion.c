@@ -5,6 +5,10 @@
  * _sqrt_recursion - function that returns natural square root of a number
  * @n: parameter one
  *
+ * _sqrt_helper - helper function
+ * @n: first parameter
+ * @i: second parameter
+ *
  * Return: returns the natural square root
  */
 
