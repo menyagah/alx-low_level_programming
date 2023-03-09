@@ -18,26 +18,23 @@ int _sqrt_recursion(int n)
 	{
 		return n;
 	}
-	int low = 1;
-     	int high = n;
-	int ans = 0;
+	int low = 1, high = n, mid;
 	while (low <= high)
 	{
-		int mid = (low = high) / 2;
+		mid = (low + high) / 2;
 
 		if (mid * mid == n)
 		{
 			return mid;
 		}
-		if (mid * mid < n)
+		else if (mid * mid < n)
 		{
 			low = mid + 1;
-			ans = mid;
 		}
 		else
 		{
 			high = mid -1;
 		}
 	}
-	return ans;
+	return -1;
 }
