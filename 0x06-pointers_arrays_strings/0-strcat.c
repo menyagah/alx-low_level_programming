@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * *_strcat - a function that concatnates strings
+ * _strcat - a function that concatnates strings
  * @dest: parameter one
  * @src: parameter two
  *
@@ -26,4 +26,3 @@ char *_strcat(char *dest, char *src)
 	*ptr = '\0';
 	return (dest);
 }
-
