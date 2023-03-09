@@ -6,6 +6,8 @@
  * @n: parameter one
  *
  * _sqrt_helper - helper function
+ *
+ * _sqrt_helper - helper function
  * @n: first parameter
  * @i: second parameter
  *
