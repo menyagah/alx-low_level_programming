@@ -33,6 +33,7 @@ if (concat == NULL)
 return (NULL);
 }
 strcpy(concat, s1);
+strcpy(concat, " ");
 strcpy(concat, s2);
 
 return (concat);
