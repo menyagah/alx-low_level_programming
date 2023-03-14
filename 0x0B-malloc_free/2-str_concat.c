@@ -21,7 +21,7 @@ s1 = "";
 }
 if (s2 == NULL)
 {
-s2 == NULL;    
+s2 = "";
 }
 
 s1_len = strlen(s1);
