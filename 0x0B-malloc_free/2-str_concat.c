@@ -12,29 +12,20 @@
 
 char *str_concat(char *s1, char *s2)
 {
-int s1_len, s2_len;
-char *concat;
+if (!s1) s1 = "";
+if (!s2) s2 = "";
 
-if (s1 == NULL)
-{
-s1 = "";
-}
-if (s2 == NULL)
-{
-s2 = "";
-}
+size_t len1 = strlen(s1);
+size_t len2 = strlen(s2);
 
-s1_len = strlen(s1);
-s2_len = strlen(s2);
-
-concat = (char *) malloc(s1_len + s2_len + 1);
-if (concat == NULL)
+char *result = malloc(len1 + len2 + 1);
+if (!result)
 {
 return (NULL);
 }
-strcpy(concat, s1);
-strcpy(concat, " ");
-strcpy(concat, s2);
+memcpy(result, s1, len1);
+memcpy(result + len1, s2, len2);
+result[len1 + len2] = '\0';
 
-return (concat);
+return result;
 }
