@@ -15,8 +15,14 @@ char *str_concat(char *s1, char *s2)
 size_t len1, len2;
 char *result;
 
-if (!s1) s1 = "";
-if (!s2) s2 = "";
+if (!s1)
+{
+s1 = "";
+}
+if (!s2)
+{
+s2 = "";
+}
 
 len1 = strlen(s1);
 len2 = strlen(s2);
