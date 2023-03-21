@@ -3,8 +3,14 @@
 
 #include <stdio.h>
 
-/* Function prototypes */
-
+/**
+ * main - Entry point
+ *
+ * @argc: Argument count
+ * @argv: Argument vector
+ *
+ * Return: Always 0
+ */
 int main(int argc, char *argv[]);
 
 #endif /* MAIN_H */
