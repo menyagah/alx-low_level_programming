@@ -1,5 +1,5 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef FUNCTION_POINTERS_H
+#define FUNCTION_POINTERS_H
 
 #include <stdio.h>
 #include <ctype.h>
@@ -10,9 +10,9 @@
  * @name: Name to print
  * @f: Function pointer to print the name
  *
- * Return: void
+ * 
  */
 
 void print_name(char *name, void (*f)(char *));
-#endif /* MAIN_H */
+#endif /* FUNCTION_POINTERS_H */
 
