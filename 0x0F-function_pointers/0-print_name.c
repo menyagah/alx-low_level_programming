@@ -6,7 +6,6 @@
  * @name: Name to print
  * @f: Function pointer to print the name
  *
- * Return: void
  */
 
 void print_name(char *name, void (*f)(char *))
