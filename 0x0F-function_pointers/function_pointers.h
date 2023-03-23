@@ -13,14 +13,6 @@
  * Return: void
  */
 void print_name(char *name, void (*f)(char *));
-
-/**
- * print - Prints a character
- *
- * @c: Character to print
- *
- * Return: void
- */
 void print(char *c);
 
 #endif /* MAIN_H */
