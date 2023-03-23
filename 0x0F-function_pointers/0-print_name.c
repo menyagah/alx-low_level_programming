@@ -17,30 +17,3 @@ void print_name(char *name, void (*f)(char *))
 	}
 }
 
-/**
- * print - Prints a string
- *
- * @str: String to print
- *
- * Return: void
- */
-void print(char *str)
-{
-	if (str != NULL)
-	{
-		printf("%s\n", str);
-	}
-}
-
-/**
- * main - Entry point
- *
- * Return: Always 0
- */
-int main(void)
-{
-	char name[] = "John Doe";
-	print_name(name, print);
-	return (0);
-}
-
