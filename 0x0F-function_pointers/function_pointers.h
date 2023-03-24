@@ -22,6 +22,6 @@ void print_name(char *name, void (*f)(char *));
  * Return: void
  */
 void print(char *c);
-
+void array_iterator(int *array, size_t size, void (*action)(int));
 #endif /* MAIN_H */
 
