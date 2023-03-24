@@ -1,8 +1,5 @@
-#ifndef MAIN_H
-#define MAIN_H
-
-#include <stdio.h>
-#include <ctype.h>
+#ifndef FUNCTION_POINTERS_H
+#define FUNCTION_POINTERS_H
 
 /**
  * print_name - Prints a name in uppercase
@@ -23,5 +20,5 @@ void print_name(char *name, void (*f)(char *));
  */
 void print(char *c);
 void array_iterator(int *array, size_t size, void (*action)(int));
-#endif /* MAIN_H */
+#endif /* FUNCTION_POINTERS_H */
 
