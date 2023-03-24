@@ -2,6 +2,8 @@
 #define FUNCTION_POINTERS_H
 
 #include <stddef.h>
+#include <stdio.h>
+#include <ctype.h>
 
 /**
  * print_name - Prints a name in uppercase
