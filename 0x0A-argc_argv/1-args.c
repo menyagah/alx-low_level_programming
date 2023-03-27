@@ -10,14 +10,11 @@
  * Return: Always 0.
  */
 
-int main(int argc, char *argv[])
+int main(int argc, char** argv)
 {
-int i;
+(void) argv;
 
-for (i = 0; i < argc; i++)
-{
-int num = argc - 1;
-printf("%d\n", num);
-}
+printf("%d\n", argc - 1);
+
 return (0);
 }
