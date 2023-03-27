@@ -13,6 +13,7 @@ int main(int argc, char *argv[])
 {
 	int cents, count = 0;
 	int coins[] = {25, 10, 5, 2, 1};
+  int i;
 
 	if (argc != 2)
 	{
@@ -28,7 +29,7 @@ int main(int argc, char *argv[])
 		return (0);
 	}
 
-	for (int i = 0; i < 5; i++)
+	for (i = 0; i < 5; i++)
 	{
 		while (cents >= coins[i])
 		{
