@@ -13,6 +13,8 @@
 int main(int argc, char *argv[])
 {
     int sum = 0;
+    int num;
+    int i;
 
     /* Check if there are any arguments */
     if (argc == 1)
@@ -22,7 +24,7 @@ int main(int argc, char *argv[])
     }
 
     /* Iterate over the arguments and add up the positive integers */
-    for (int i = 1; i < argc; i++)
+    for (i = 1; i < argc; i++)
     {
         char *arg = argv[i];
         int j = 0;
@@ -37,7 +39,7 @@ int main(int argc, char *argv[])
             j++;
         }
 
-        int num = atoi(arg);
+        num = atoi(arg);
 
         if (num > 0)
         {
