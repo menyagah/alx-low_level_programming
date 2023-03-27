@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -8,6 +9,7 @@
  *
  * Return: 0 if successful, 1 if an error occurred
  */
+
 int main(int argc, char **argv)
 {
 	if (argc != 3)
