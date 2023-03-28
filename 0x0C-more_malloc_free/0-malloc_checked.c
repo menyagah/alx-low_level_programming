@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- * malloc_checked - Allocates a block of memory of the given size using malloc.
+ * malloc_checked - Entry point.
  * @b: the size of the memory block to allocate.
- * @return: a pointer to the allocated memory block.
+ * Return: a pointer.
  */
 
 void *malloc_checked(unsigned int b)
