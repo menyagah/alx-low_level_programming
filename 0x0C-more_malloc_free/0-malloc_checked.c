@@ -16,7 +16,6 @@ void *p = malloc(b);
 
 if (p == NULL)
 {
-fprintf(stderr, "Memory allocation failed\n");
 exit(98);
 }
 return (p);
