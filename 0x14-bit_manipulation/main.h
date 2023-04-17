@@ -6,10 +6,11 @@
 /**
  * binary_to_uint - Entry point
  *
- * @b: Argument 
+ * @b: Argument
  *
  * Return: Always num
  */
 
 unsigned int binary_to_uint(const char *b);
+
 #endif /* MAIN_H */
