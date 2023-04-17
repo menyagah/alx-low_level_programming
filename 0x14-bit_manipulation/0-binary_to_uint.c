@@ -11,8 +11,8 @@
 */
 
 unsigned int binary_to_uint(const char *b)
-{
-int num = 0;
+{  
+unsigned int num = 0;
 int i;
 
 if (b == NULL)
@@ -25,7 +25,7 @@ if (b[i] == '0')
 {
 num = num << 1;
 }
-if (b[i] == '1')
+else if (b[i] == '1')
 {
 num = (num << 1) | 1;
 }
